@@ -14,5 +14,5 @@
 
 | Part | Title                                                                       |
 | ---- |-----------------------------------------------------------------------------|
-| 1.   |  Creating and using a custom tokenizer (TODO)                               |
+| 1.   |  [Creating and using a custom tokenizer](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/advanced/1._Creating_and_using_a_custom_tokenizer.ipynb)                               |
 | 2.   |  [Create and use component](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/advanced/2._Create_and_use_component.ipynb)                                    |
