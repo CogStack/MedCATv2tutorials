@@ -10,6 +10,12 @@
 | 2.   | [Unsupervised training on model](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/introductory/basic/2._Unsupervised_training_on_model.ipynb) |
 | 3.   | [Supervised training on model](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/introductory/basic/3._Supervised_training_on_model.ipynb) |
 
+### MetaCAT (meta-annotation) tutorials
+
+| Part | Title                                                                       |
+| ---- |-----------------------------------------------------------------------------|
+| 1.   |  [Add a MetaCAT to a Model](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/introductory/meta/1.__Add_a_MetaCat_to_a_Model.ipynb)                                    |
+
 ## Advanced tutorials
 
 | Part | Title                                                                       |
