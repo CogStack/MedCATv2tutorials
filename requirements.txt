@@ -1,2 +1,2 @@
-git+https://github.com/CogStack/MedCAT2@v0.1.5#egg=medcat2
+git+https://github.com/CogStack/MedCAT2@v0.2.1#egg=medcat2
 ipykernel
