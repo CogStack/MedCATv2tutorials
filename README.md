@@ -2,6 +2,12 @@
 
 ## Introductory tutorials
 
+### Migration of v1 models
+
+| Part | Title                                                                       |
+| ---- |-----------------------------------------------------------------------------|
+| 1.   |  [Migrate a v1 model to v2](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/introductory/migration/1._Migrate_v1_model_to_v2.ipynb)                                    |
+
 ### Basic (regex-tokenizer) tutorials
 
 | Part | Title                                                                       |
