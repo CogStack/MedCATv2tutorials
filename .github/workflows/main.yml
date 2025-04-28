@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         part: [
-          introductory/migration/*.ipynb
+          introductory/migration/*.ipynb,
           introductory/basic/*.ipynb,
           introductory/meta/*.ipynb,
           advanced/*.ipynb,
