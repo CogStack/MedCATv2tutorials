@@ -14,7 +14,7 @@
 
 | Part | Title                                                                       |
 | ---- |-----------------------------------------------------------------------------|
-| 1.   |  [Add a MetaCAT to a Model](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/introductory/meta/1.__Add_a_MetaCat_to_a_Model.ipynb)                                    |
+| 1.   |  [Add a MetaCAT to a Model](https://github.com/CogStack/MedCATv2tutorials/blob/main/notebooks/introductory/meta/1._Add_a_MetaCat_to_a_Model.ipynb)                                    |
 
 ## Advanced tutorials
 
