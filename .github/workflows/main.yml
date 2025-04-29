@@ -14,8 +14,8 @@ jobs:
       matrix:
         part: [
           ./notebooks/introductory/migration/*.ipynb,
-          # NOTE: run these together
-          ./notebooks/introductory/basic/*.ipynb ./notebooks/introductory/meta/*.ipynb,
+          # NOTE: run these together / in sequence
+          ./notebooks/introductory/basic/1*.ipynb ./notebooks/introductory/basic/2*.ipynb ./notebooks/introductory/basic/3*.ipynb ./notebooks/introductory/meta/*.ipynb,
           ./notebooks/advanced/*.ipynb,
         ]
 
