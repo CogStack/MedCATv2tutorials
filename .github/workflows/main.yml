@@ -7,15 +7,40 @@ on:
     branches: [ main ]
 
 jobs:
-  main:
+  basic-and-meta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+      - name: Install IPython kernel
+        run: |
+          python -m ipykernel install --name smoketests --user
+      - name: Smoke test tutorial
+        # NOTE: these need to be run separately so that order is guaranteed
+        run: |
+          pytest --collect-only --nbmake ./notebooks/introductory/basic/1*.ipynb
+          pytest --collect-only --nbmake ./notebooks/introductory/basic/2*.ipynb
+          pytest --collect-only --nbmake ./notebooks/introductory/basic/3*.ipynb
+          pytest --collect-only --nbmake ./notebooks/introductory/meta/*.ipynb,
+          pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/basic/1*.ipynb
+          pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/basic/2*.ipynb
+          pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/basic/3*.ipynb
+          pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/meta/*.ipynb,
+
+  migrate-and-advanved:
 
     runs-on: ubuntu-latest
     strategy:
       matrix:
         part: [
           ./notebooks/introductory/migration/*.ipynb,
-          # NOTE: run these together / in sequence
-          ./notebooks/introductory/basic/1*.ipynb ./notebooks/introductory/basic/2*.ipynb ./notebooks/introductory/basic/3*.ipynb ./notebooks/introductory/meta/*.ipynb,
           ./notebooks/advanced/*.ipynb,
         ]
 
