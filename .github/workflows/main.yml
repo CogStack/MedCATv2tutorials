@@ -28,11 +28,11 @@ jobs:
           pytest --collect-only --nbmake ./notebooks/introductory/basic/1*.ipynb
           pytest --collect-only --nbmake ./notebooks/introductory/basic/2*.ipynb
           pytest --collect-only --nbmake ./notebooks/introductory/basic/3*.ipynb
-          pytest --collect-only --nbmake ./notebooks/introductory/meta/*.ipynb,
+          pytest --collect-only --nbmake ./notebooks/introductory/meta/*.ipynb
           pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/basic/1*.ipynb
           pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/basic/2*.ipynb
           pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/basic/3*.ipynb
-          pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/meta/*.ipynb,
+          pytest --nbmake -n=auto --nbmake-kernel=smoketests --nbmake-timeout=1800 ./notebooks/introductory/meta/*.ipynb
 
   migrate-and-advanved:
 
