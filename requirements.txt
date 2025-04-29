@@ -1,2 +1,5 @@
 git+https://github.com/CogStack/MedCAT2@v0.2.1#egg=medcat2
 ipykernel
+pytest-xdist~=3.6.0
+nbmake<1.6
+nbconvert<8
