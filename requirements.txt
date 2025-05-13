@@ -1,4 +1,4 @@
-git+https://github.com/CogStack/MedCAT2@v0.3.3#egg=medcat2
+medcat2 @ git+https://github.com/CogStack/MedCAT2@v0.3.3
 ipykernel
 pytest-xdist~=3.6.0
 nbmake<1.6
