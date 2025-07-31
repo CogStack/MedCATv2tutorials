@@ -1,3 +1,22 @@
+# ⚠️ This Project Has Moved Repository
+
+
+<div align="center">
+
+[![Project Moved](https://img.shields.io/badge/🚀-Project%20Moved-brightgreen)](https://github.com/CogStack/cogstack-nlp/tree/main/medcat-v2-tutorials)
+
+👉 Please visit the new repository here:  
+**[https://github.com/CogStack/cogstack-nlp/tree/main/medcat-v2-tutorials](https://github.com/CogStack/cogstack-nlp/tree/main/medcat-v2-tutorials)**
+
+[<img src="https://avatars.githubusercontent.com/u/28688163" width="45" />](https://github.com/CogStack/cogstack-nlp/tree/main/medcat-v2-tutorials)
+
+</div>
+
+---
+
+<br>
+
+
 # MedCATv2tutorials
 
 ## Introductory tutorials
